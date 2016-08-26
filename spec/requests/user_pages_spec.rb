@@ -121,8 +121,6 @@ require 'rails_helper'
        it { is_expected.to have_link("change", href: 'http://gravatar.com/emails') } 
      end 
  
-
-<<<<<<< HEAD
      describe "with invalid information" do 
        before { click_button "Save changes" } 
        it { is_expected.to have_content('error') } 
@@ -160,7 +158,7 @@ require 'rails_helper'
      end 
    end 
  end 
-=======
+
   describe "profile page" do
     let(:user) { FactoryGirl.create(:user) }
     before { visit user_path(user) }
@@ -200,4 +198,3 @@ require 'rails_helper'
     end
   end
 end
->>>>>>> updating-users

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-require 'rails_helper' 
+require 'spec_helper' 
  
  
 RSpec.describe "AuthenticationPages", type: :request do 
@@ -163,7 +162,7 @@ describe " for non-signined-in users" do
      end 
    end 
  end 
-=======
+
 require 'spec_helper'
 
 describe "Authentication" do
@@ -211,4 +210,3 @@ describe "Authentication" do
       end
    end
 end
->>>>>>> updating-users
